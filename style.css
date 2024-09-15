@@ -1,0 +1,113 @@
+
+.fondo{
+    background-image: url("./assents/apple.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 1500px;
+    height: 723px;
+    padding: 0;
+    margin: 0%;
+
+  
+}
+
+.fondo1{
+    background-image: url("./assents/fila1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 1500px;
+    height: 745px;
+
+   
+}
+
+
+.fondo3{
+    background-image: url("./assents/fila2col-1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 724px;
+    height: 566px; 
+    padding-left: -100px;
+    padding-bottom: 120px;
+    padding-top: 100px;/* posicion del texto y boton  */
+}
+.fondo4{
+    background-image: url("./assents/fila2col2.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 724px;
+    height: 566px; 
+}
+
+.fondo5{
+    background-image: url("./assents/fila3-col1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 724px;
+    height: 566px; 
+}
+.fondo6{
+    background-image: url("./assents/fila3-col2.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 724px;
+    height: 566px; 
+}
+
+.fondo7{
+    background-image: url("./assents/fila4col1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 724px;
+    height: 566px; 
+}
+.fondo8{
+    background-image: url("./assents/fila4col-2.png");
+     background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    width: 724px;
+    height: 566px; 
+}
+.posicion{
+    padding-bottom: 120px;
+    padding-top: 240px;
+}
+.left{
+    padding-left: -100px;
+}
+
+.carousel1-item {
+    position: relative; /* Para que el botón se posicione relativo a la imagen */
+}
+
+.boton-learn-more {/* se busca en chat gp como poner css  */
+    position: absolute;
+    bottom: 10px; /* Ajusta la distancia desde la parte inferior de la imagen */
+    left: 68px;   /* Ajusta la distancia desde el lado izquierdo */
+    z-index: 10;  /* Asegura que el botón esté por encima de la imagen */
+    border-radius: 25px/* para dejar bordeado el boton  */
+}
+.boton-border{
+    border-radius: 25px
+    
+}
+.btn-text {
+    color: black; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    margin-left: 10px; /* Espacio entre el botón y el texto */
+    display: inline-block; /* Asegura que el texto esté al lado del botón */
+    vertical-align: middle;
+
+
+
+}
