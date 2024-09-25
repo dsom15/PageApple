@@ -7,7 +7,7 @@
     width: 1500px;
     height: 723px;
     padding: 0;
-    margin: 0%;
+    margin: 0;
 
   
 }
@@ -15,7 +15,7 @@
 .fondo1{
     background-image: url("./assents/fila1.png");
     background-repeat: no-repeat;
-    background-position: right top;
+background-position: right top;
     background-attachment: scroll;
     width: 1500px;
     height: 745px;
@@ -42,6 +42,9 @@
     background-attachment: scroll;
     width: 724px;
     height: 566px; 
+    padding-left: -100px;
+    padding-bottom: 120px;
+    padding-top: 100px;/* posicion del texto y boton  */
 }
 
 .fondo5{
@@ -51,6 +54,9 @@
     background-attachment: scroll;
     width: 724px;
     height: 566px; 
+    padding-left: -100px;
+    padding-bottom: 120px;
+    padding-top: 100px;/* posicion del texto y boton  */
 }
 .fondo6{
     background-image: url("./assents/fila3-col2.png");
@@ -59,6 +65,9 @@
     background-attachment: scroll;
     width: 724px;
     height: 566px; 
+    padding-left: -100px;
+    padding-bottom: 120px;
+    padding-top: 100px;/* posicion del texto y boton  */
 }
 
 .fondo7{
@@ -68,6 +77,9 @@
     background-attachment: scroll;
     width: 724px;
     height: 566px; 
+    padding-left: -100px;
+    padding-bottom: 120px;
+    padding-top: 100px;/* posicion del texto y boton  */
 }
 .fondo8{
     background-image: url("./assents/fila4col-2.png");
@@ -76,6 +88,9 @@
     background-attachment: scroll;
     width: 724px;
     height: 566px; 
+    padding-left: -100px;
+    padding-bottom: 120px;
+    padding-top: 100px;/* posicion del texto y boton  */
 }
 .posicion{
     padding-bottom: 120px;
@@ -96,6 +111,18 @@
     z-index: 10;  /* Asegura que el botón esté por encima de la imagen */
     border-radius: 25px/* para dejar bordeado el boton  */
 }
+
+.carousel2-item {
+    position: relative; /* Para que el botón se posicione relativo a la imagen */
+}
+
+.boton2-learn-more {/* se busca en chat gp como poner css  */
+    position: absolute;
+    bottom: 90px; /* Ajusta la distancia desde la parte inferior de la imagen */
+    left: 624px;   /* Ajusta la distancia desde el lado izquierdo */
+    z-index: 10;  /* Asegura que el botón esté por encima de la imagen */
+    border-radius: 25px/* para dejar bordeado el boton  */
+}
 .boton-border{
     border-radius: 25px
     
@@ -109,5 +136,10 @@
     vertical-align: middle;
 
 
+    
 
+}
+.footer{
+    background: rgb(245, 245, 247);
+    font-size: 10px;
 }
